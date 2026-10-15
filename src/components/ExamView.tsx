@@ -1181,6 +1181,13 @@ export const ExamView: React.FC<ExamViewProps> = ({
           const audio = new Audio(audioDataUrl);
           audio.volume = 1.0;
           audio.play().catch((err) => console.warn('Gagal memutar interkom pengawas:', err));
+        } else if (text && typeof window !== 'undefined' && 'speechSynthesis' in window) {
+          window.speechSynthesis.cancel();
+          const utterance = new SpeechSynthesisUtterance(text);
+          utterance.lang = 'id-ID';
+          utterance.rate = 1.0;
+          utterance.volume = 1.0;
+          window.speechSynthesis.speak(utterance);
         }
       } catch (err) {
         console.warn('Intercom audio exception:', err);
