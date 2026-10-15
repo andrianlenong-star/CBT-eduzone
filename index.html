@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduZone CBT - Sistem Ujian Berbasis Komputer & Tablet</title>
+    <meta name="description" content="Aplikasi EduZone CBT Modern dengan Tipe Soal PG, PGK, Benar-Salah, Isian Singkat, Uraian/Essay, Kunci Tombol Anti-Cheat, Kamera Pengawas Otomatis, dan Panel Guru." />
+    <meta property="og:title" content="EduZone CBT - Sistem Ujian Berbasis Komputer & Tablet" />
+    <meta property="og:description" content="Aplikasi EduZone CBT Modern dengan Tipe Soal PG, PGK, Benar-Salah, Isian Singkat, Uraian/Essay, Kunci Tombol Anti-Cheat, Kamera Pengawas Otomatis, dan Panel Guru." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Gracefully suppress benign Vite HMR WebSocket disconnection notices in iframe preview
+      window.addEventListener('error', function(e) {
+        var msg = e && (e.message || '');
+        var file = e && (e.filename || '');
+        if (file.indexOf('@vite/client') !== -1 || msg.indexOf('WebSocket') !== -1) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+          return true;
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(e) {
+        var reason = e && (e.reason || '');
+        var msg = String(reason.message || reason || '');
+        if (msg.indexOf('WebSocket') !== -1 || msg.indexOf('@vite/client') !== -1) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

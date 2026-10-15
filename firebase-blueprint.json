@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/firebase/firebase-tools/master/schema/firestore-blueprint.json",
+  "entities": {
+    "ExamResult": {
+      "collection": "exam_results",
+      "fields": {
+        "nama": { "type": "string" },
+        "nisn": { "type": "string" },
+        "kelas": { "type": "string" },
+        "mapelId": { "type": "string" },
+        "mapelNama": { "type": "string" },
+        "nilai": { "type": "number" },
+        "benar": { "type": "number" },
+        "salah": { "type": "number" },
+        "totalSoal": { "type": "number" },
+        "pelanggaran": { "type": "number" },
+        "waktuSelesai": { "type": "string" },
+        "createdAt": { "type": "string" }
+      }
+    },
+    "AppConfig": {
+      "collection": "app_config",
+      "fields": {
+        "logoUrl": { "type": "string" },
+        "sekolah": { "type": "string" },
+        "judul": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      }
+    }
+  }
+}

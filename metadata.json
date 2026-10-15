@@ -1,0 +1,6 @@
+{
+  "name": "SD UNITY CBT",
+  "description": "Aplikasi CBT Asesmen Sekolah Modern dengan Tipe Soal PG, PGK, Benar-Salah, Isian Singkat, Uraian/Essay, Impor Massal Word/CSV/JSON, Anti-Cheat, dan Panel Guru.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

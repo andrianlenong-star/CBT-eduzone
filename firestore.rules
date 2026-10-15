@@ -1,0 +1,19 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Exam results submitted by students and viewed by teachers
+    match /exam_results/{resultId} {
+      allow read, create, update, delete: if true;
+    }
+    
+    // Optional global subjects sync
+    match /subjects/{subjectId} {
+      allow read, write: if true;
+    }
+    
+    // Default fallback
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}

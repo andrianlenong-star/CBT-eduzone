@@ -1,0 +1,83 @@
+[
+  {
+    "id": "simulasi-tka-bahasa-indonesia",
+    "kode": "SIM-TKA-IND",
+    "nama": "Simulasi TKA Bahasa Indonesia",
+    "guruPengampu": "Tim Asesmen & Literasi TKA",
+    "kelas": "Kelas 5 & 6",
+    "passwordBankSoal": "guru123",
+    "color": "blue",
+    "deskripsi": "Simulasi Tes Kemampuan Akademik (TKA) Bahasa Indonesia dengan 35 butir soal standar kurikulum nasional.",
+    "settings": {
+      "judul": "Asesmen EduZone CBT",
+      "mapel": "Simulasi TKA Bahasa Indonesia",
+      "sekolah": "EduZone",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Logo_Tut_Wuri_Handayani.png",
+      "logoShape": "rounded",
+      "logoFit": "contain",
+      "tahunAjaran": "2025/2026",
+      "durasiMenit": 75,
+      "token": "SIMTKA26",
+      "adminPass": "112233",
+      "acakSoal": false,
+      "tampilkanNilai": true,
+      "akhiriOtomatisJikaCurang": true,
+      "kameraPengawasAktif": true,
+      "kunciLayarPenuh": true
+    },
+    "questions": [],
+    "results": []
+  },
+  {
+    "id": "tka-1-matematika",
+    "kode": "TKA-MTK",
+    "nama": "TKA 1 Matematika",
+    "guruPengampu": "Guru Matematika TKA",
+    "kelas": "Kelas 5 & 6",
+    "passwordBankSoal": "guru123",
+    "color": "blue",
+    "deskripsi": "Tes Kemampuan Akademik (TKA) 1 Matematika.",
+    "settings": {
+      "judul": "Asesmen TKA 1 Matematika",
+      "mapel": "TKA 1 Matematika",
+      "sekolah": "EduZone",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Logo_Tut_Wuri_Handayani.png",
+      "logoShape": "rounded",
+      "logoFit": "contain",
+      "tahunAjaran": "2025/2026",
+      "durasiMenit": 60,
+      "token": "TKAMTK26",
+      "adminPass": "112233",
+      "acakSoal": false,
+      "tampilkanNilai": true
+    },
+    "questions": [],
+    "results": []
+  },
+  {
+    "id": "tka-1-bahasa-indonesia",
+    "kode": "TKA-IND",
+    "nama": "TKA 1 Bahasa Indonesia",
+    "guruPengampu": "Guru Bahasa Indonesia TKA",
+    "kelas": "Kelas 5 & 6",
+    "passwordBankSoal": "guru123",
+    "color": "purple",
+    "deskripsi": "Tes Kemampuan Akademik (TKA) 1 Bahasa Indonesia.",
+    "settings": {
+      "judul": "Asesmen TKA 1 Bahasa Indonesia",
+      "mapel": "TKA 1 Bahasa Indonesia",
+      "sekolah": "EduZone",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Logo_Tut_Wuri_Handayani.png",
+      "logoShape": "rounded",
+      "logoFit": "contain",
+      "tahunAjaran": "2025/2026",
+      "durasiMenit": 60,
+      "token": "TKAIND26",
+      "adminPass": "112233",
+      "acakSoal": false,
+      "tampilkanNilai": true
+    },
+    "questions": [],
+    "results": []
+  }
+]
